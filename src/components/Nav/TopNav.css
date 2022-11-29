@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.TopNav-icons i {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.TopNav-icons{
+    margin-left: 40px;
+}
+.TopNav-secondPart i {
+  color: orange;
+  font-size: 35px;
+  margin-right: 10px;
+}
+.TopNav-main {
+  display: flex;
+  background-color: #00082e;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 80px;
+  font-family: 'Roboto', sans-serif;
+}
+.TopNav-secondPart {
+  display: flex;
+  color: white;
+}
+
+.TopNav-secondPart a {
+  font-size: 13px;
+}
+
+.TopNav-secondPart p {
+  font-size: 20px;
+}
