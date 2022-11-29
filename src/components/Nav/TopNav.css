@@ -1,22 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
 }
+
 .TopNav-icons i {
   color: white;
   font-size: 20px;
-  margin-right: 10px;
+  margin-right: 25px;
 }
-.TopNav-icons{
-    margin-left: 40px;
+
+.TopNav-icons {
+  margin-left: 40px;
 }
+
 .TopNav-secondPart i {
   color: orange;
   font-size: 35px;
   margin-right: 10px;
 }
+
 .TopNav-main {
   display: flex;
   background-color: #00082e;
@@ -25,6 +27,7 @@
   padding-bottom: 80px;
   font-family: 'Roboto', sans-serif;
 }
+
 .TopNav-secondPart {
   display: flex;
   color: white;
@@ -36,4 +39,74 @@
 
 .TopNav-secondPart p {
   font-size: 20px;
+}
+
+.volia {
+  position: relative;
+  bottom: 35px;
+  border: 1px solid white;
+  width: 170px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px 10px 0 0;
+}
+
+.ButtomNav-main {
+  width: 1400px;
+  position: relative;
+  bottom: 50px;
+  height: 91px;
+  float: right;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+.searchBtn {
+  padding: 10px;
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.searchBtn i {
+  font-size: 20px;
+  color: white;
+}
+
+.ticketBtn {
+  background-color: #020f51;
+  width: 180px;
+  height: 50px;
+  margin-right: 175px;
+  margin-left: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.ticketBtn i {
+  color: orange;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+.twoBtn {
+  display: flex;
+  padding-top: 20px;
+  
+}
+.menu i{
+  font-size: 10px;
+}
+.menu li{
+  margin-right: 27px;
+}
+.menu{
+  padding-top: 37px;
+  color: #00082e;
+  font-weight: 600;
 }
